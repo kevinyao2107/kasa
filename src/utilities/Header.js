@@ -27,6 +27,11 @@ const Header = () => {
               A propos
             </Link>
           </li>
+          <li className='nav__item'>
+            <Link className='nav__item-link' to='/apropos'>
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
